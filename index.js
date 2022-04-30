@@ -1,1 +1,7 @@
 // Your code goes here
+
+document.addEventListener("DOMContentLoaded", function() {
+    const changeText = document.getElementById('text');
+    changeText.textContent = "This is really cool!";
+  });
+  
